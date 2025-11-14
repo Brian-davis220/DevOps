@@ -1,0 +1,115 @@
+# ----------------------------
+# 🐍 Python
+# ----------------------------
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pyc
+*.so
+.Python
+env/
+venv/
+.venv/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+.pytest_cache/
+.coverage
+*.cover
+*.log
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Environment variables
+*.env
+.env.*
+
+# ----------------------------
+# 🐳 Docker
+# ----------------------------
+# Avoid committing large images or local cache
+**/docker-compose.override.yml
+**/docker-compose.local.yml
+
+# ----------------------------
+# 🌍 Terraform
+# ----------------------------
+*.tfstate
+*.tfstate.*
+crash.log
+.crash/
+.terraform/
+terraform.tfvars
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+
+# ----------------------------
+# 🟦 Node.js (if tools/scripts use it)
+# ----------------------------
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# ----------------------------
+# 🐧 Linux system files
+# ----------------------------
+*.swp
+*.swo
+*.out
+*.bak
+*.tmp
+
+# ----------------------------
+# 🪟 Windows / MacOS system files
+# ----------------------------
+Thumbs.db
+Desktop.ini
+.DS_Store
+
+# ----------------------------
+# 🔐 Secrets / credentials (NEVER COMMIT)
+# ----------------------------
+*.pem
+*.key
+*.crt
+id_rsa
+id_rsa.pub
+*.p12
+
+# ----------------------------
+# 🛠 Build artifacts (general)
+# ----------------------------
+*.o
+*.a
+*.exe
+*.bin
+
+# ----------------------------
+# 🚀 Container & cloud tools
+# ----------------------------
+# Kubernetes
+*.kube/
+kubeconfig
+
+# AWS
+.aws/
+*.tfplan
